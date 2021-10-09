@@ -1,6 +1,6 @@
-# organiser son code en modules
+# organiser son code en modules, en JS
 
-Essayons de voir l'intérêt d'organiser son code en "modules".
+Essayons de voir l'intérêt d'organiser son code en "modules", en JS.
 
 ## 1. sans orga particulière
 
@@ -32,7 +32,7 @@ const chat = {
 
 > On comprend vite l'intérêt de cette organisation de code, pour tout type de projet !
 
-Alors, on dit merci qui ? Merci ~~Jacky et~~ la Programmation Orientée Objet !
+Alors, on dit merci qui ? Merci ~~Jacquie et~~ la Programmation Orientée Objet !
 
 ## un dernier mot
 
