@@ -1,8 +1,8 @@
-# organiser son code en modules, en JS
+# Organiser son code en modules, en JS
 
 Essayons de voir l'intérêt d'organiser son code en "modules", en JS.
 
-## 1. sans orga particulière
+## Méthode 1 - sans orga particulière
 
 Dans [animaux-melange.js](animaux-melange.js), il n'y a pas d'organisation particulière, on code comme ça vient, on déclare différentes variables, un tas de fonctions et puis on les appelle.
 
@@ -10,7 +10,7 @@ Dans [animaux-melange.js](animaux-melange.js), il n'y a pas d'organisation parti
 
 Oui ↓
 
-## 2. organisation en modules
+## Méthode 2 - organisation en modules
 
 Dans [animaux-modules.js](animaux-modules.js), on garde strictement les mêmes fonctionnalités que [animaux-melange.js](animaux-melange.js), mais en organisant son code différemment :
 
@@ -34,12 +34,22 @@ const chat = {
 
 Alors, on dit merci qui ? Merci ~~Jacquie et~~ la Programmation Orientée Objet !
 
-## un dernier mot
+## Vocabulaire
+
+1. Les fonctions, une fois rangées dans nos "modules", sont alors appelées **méthodes**.
+2. Les variables, une fois rangées dans nos "modules", sont alors appelées **propriétés**.
+
+## Un dernier conseil
 
 N'hésitez pas à [ouvrir](animaux-melange.js) et [comparer](animaux-modules.js) les deux fichiers JS de ce dépôt afin de bien comprendre :
 
-- comment déclarer un module/objet (`const chat = {}`)
-- comment déclarer une variable dans un module (`age: 7`)
-- comment déclarer une fonction dans un module (`miaule: function() {}`)
-- comment utiliser une variable (ex: `age`), une fois sorti du module (`chat.age`)
-- comment appeler une fonction (ex: `miaule`), une fois sorti du module (`chat.miaule()`)
+- Comment déclarer un module (objet)
+  - via par exemple un `const chat = {}`
+- Comment déclarer une variable (propriété) dans un module (objet)
+  - via par exemple un `age: 7`
+- Comment déclarer une fonction (méthode) dans un module (objet)
+  - via par exemple un `miaule: function() {}`
+- Comment utiliser une variable (propriété) à l'extérieure du module (objet)
+  - via par exemple un `chat.age` qui permet d'accéder à la variable (propriété) `age` se trouvant dans le module (objet) `chat`
+- Comment appeler une fonction (méthode) à l'extérieure du module (objet)
+  - via par exemple un `chat.miaule()` qui permet d'accéder à la fonction (méthode) `miaule()` se trouvant dans le module (objet) `chat`
