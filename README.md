@@ -41,10 +41,9 @@ Alors, on dit merci qui ? Merci ~~Jacquie et~~ la Programmation Orientée Objet 
 
 ## Quel est l'intérêt du code organisé en modules ?
 
-> Découper du code en plusieurs parties apportent de nombreux avantages par rapport à un code monobloc:
+> Découper du code en plusieurs parties apporte de nombreux avantages par rapport à un code monobloc:
 > - Le premier avantage est de rendre le code plus lisible puisqu'on peut le séparer, par exemple, en fonctionnalités.
 > - Le code séparé en modules facilite sa réutilisation dans le reste de l'application mais aussi dans d'autres applications.
-> - La gestion des dépendances entre modules est simplifiée: chaque module indique clairement ses dépendances. En cas de problème ou de dépendances cassés, on peut identifier plus facilement le ou les modules qui font défaut.
 > - Les modules rendent le code plus facilement extensible car on peut plus aisément rajouter un ou plusieurs modules et les utiliser.
 > - Enfin, les modules favorisent l'encapsulation pour éviter d'exposer une complexité qui n'est pas nécessaire.
 
