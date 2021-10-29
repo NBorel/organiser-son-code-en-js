@@ -59,8 +59,11 @@ const jungle = {
     
     // on appelle la méthode 'miaule' du module chat
     chat.miaule();
-
+    
     console.log('what? un chat qui miaule dans la jungle ?');
+    
+    // on accède à la propriété 'age' du module chat
+    console.log('c\'est un chat qui a ' + chat.age + ' ans');
 
     chien.aboie();
     singe.faitLaGrimace();
