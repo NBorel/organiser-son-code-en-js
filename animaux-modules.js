@@ -41,3 +41,33 @@ chien.afficheAge();
 singe.faitLaGrimace();
 console.log('son âge : ' + singe.age);
 singe.afficheAge();
+
+
+
+// module jungle
+const jungle = {
+  temperature: 33,
+  humidite: 90,
+  explore: function() {
+
+    console.log('🌿 exploration de la jungle 🌿');
+    // on accède à la propriété 'temperature' du module jungle
+    console.log('température : ' + jungle.temperature + '°C');
+    // on accède à la propriété 'humidite' du module jungle
+    console.log('humidité : ' + jungle.humidite + '%' );
+    console.log('et puis, soudainement, on entend :');
+    
+    // on appelle la méthode 'miaule' du module chat
+    chat.miaule();
+
+    console.log('what? un chat qui miaule dans la jungle ?');
+
+    chien.aboie();
+    singe.faitLaGrimace();
+
+    console.log('eh beh, il s\'en passe des choses dans la jungle :B');
+  }
+}
+
+// on lance l'exploration de la jungle
+jungle.explore();
