@@ -32,7 +32,7 @@ const chat = {
 
 > On comprend vite l'intérêt de cette organisation de code, pour tout type de projet !
 
-Alors, on dit merci qui ? Merci ~~Jacquie et~~ la Programmation Orientée Objet !
+Alors, on dit merci qui ? Merci ~~Jacquie et~~ la Programmation Orientée Objet 🤫
 
 ## Vocabulaire
 
@@ -48,23 +48,23 @@ Alors, on dit merci qui ? Merci ~~Jacquie et~~ la Programmation Orientée Objet 
 > - Les modules rendent le code plus facilement extensible car on peut plus aisément rajouter un ou plusieurs modules et les utiliser.
 > - Enfin, les modules favorisent l'encapsulation pour éviter d'exposer une complexité qui n'est pas nécessaire.
 
-via cet [article du blog cdiesse.fr](https://cdiese.fr/modules-javascript/)
+via cet [article du blog cdiese.fr](https://cdiese.fr/modules-javascript/)
 
 ## Un dernier conseil
 
 N'hésitez pas à [ouvrir](animaux-melange.js) et [comparer](animaux-modules.js) les deux fichiers JS de ce dépôt afin de bien comprendre :
 
-- Comment déclarer un module (objet)
+- Comment déclarer un module
   ```js
   const chat = {}
   ```
-- Comment déclarer une variable (propriété) dans un module (objet)
+- Comment déclarer une variable (propriété) dans un module
   ```js
   const chat = {
     age: 7
   }
   ```
-- Comment déclarer une fonction (méthode) dans un module (objet)
+- Comment déclarer une fonction (méthode) dans un module
   ```js
   const chat = {
     miaule: function() {
@@ -72,7 +72,7 @@ N'hésitez pas à [ouvrir](animaux-melange.js) et [comparer](animaux-modules.js)
     }
   }
   ```
-- Comment utiliser une variable (propriété) à l'extérieure du module (objet)
+- Comment utiliser une variable (propriété) à l'extérieure du module
   ```js
   const chat = {
     age: 7
@@ -81,7 +81,7 @@ N'hésitez pas à [ouvrir](animaux-melange.js) et [comparer](animaux-modules.js)
   console.log(chat.age); // affiche 7
   ```
   ici `chat.age` permet d'accéder à la variable (propriété) `age` se trouvant dans le module `chat`
-- Comment appeler une fonction (méthode) à l'extérieure du module (objet)
+- Comment appeler une fonction (méthode) à l'extérieure du module
   ```js
   const chat = {
     miaule: function() {
